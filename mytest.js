@@ -7,3 +7,5 @@ function iLoveTheBeatles(n) {
 }
 
 console.log(iLoveTheBeatles(15))
+console.log(iLoveTheBeatles(16))
+console.log(iLoveTheBeatles(5))
