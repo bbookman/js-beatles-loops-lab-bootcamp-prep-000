@@ -9,6 +9,8 @@ function theBeatlesPlay(musicians, instruments){
   for (i = 0; i < musicians.length ; i++ ){
     newArray.push( (musicians[i] + " " + instruments[i]));
   }
+ 
+  return newArray
 }
 
-theBeatlesPlay(musicians, instruments)
+console.log(theBeatlesPlay(musicians, instruments))
